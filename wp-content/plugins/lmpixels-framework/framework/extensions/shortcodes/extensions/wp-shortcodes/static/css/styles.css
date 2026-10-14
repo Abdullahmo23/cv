@@ -1,0 +1,129 @@
+.mce-ico.mce-i-fw-shortcodes-button:before {
+	font-family: 'Unycon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	content: "\e2ad";
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.mce-floatpanel.mce-popover.mce-bottom.mce-container {
+	overflow: auto;
+	padding: 10px 5px 5px 10px;
+	margin-top: 5px;
+}
+
+.mce-container .fw-wp-shortcodes-item-wrapper {
+	width: 430px;
+}
+
+.mce-fw-shortcodes-window + .mce-reset.mce-fade.mce-in {
+	opacity: .7 !important;
+	filter: alpha(opacity=70) !important;
+}
+
+.mce-fw-shortcodes-window .mce-dragh {
+	display: none !important;
+}
+
+.mce-container .fw-shortcode-item {
+	width: 70px;
+	height: 70px;
+	outline: 1px solid #e1e1e1;
+	font-size: 11px;
+	margin: 0 1px 1px 0;
+	background-color: #ffffff;
+	float: left;
+	display: block;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	cursor: pointer;
+	position: relative;
+}
+
+.mce-container .fw-shortcode-item:hover {
+	outline-color: #8f8f8f;
+	z-index: 9999;
+	cursor: pointer;
+}
+
+.mce-container .fw-shortcode-item .inner {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	position: relative;
+	padding-top: 15px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.mce-container .fw-shortcode-item p {
+	text-align: center;
+	position: absolute;
+	left: 3px;
+	right: 3px;
+	bottom: 5px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0;
+}
+
+.mce-container .fw-shortcode-item p span {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 1.2;
+	font-size: 10px;
+	color: #666;
+	text-align: center;
+	white-space: normal;
+}
+
+.mce-container .fw-shortcode-item img {
+	width: 16px;
+	height: 16px;
+	opacity: 0.66;
+	display: inline-block;
+}
+
+.mce-container .fw-shortcode-item:hover img,
+.mce-container .fw-shortcode-item img:hover {
+	opacity: 1;
+}
+
+.mce-container .fw-shortcode-item span.fw-ext-builder-icon {
+	color: #b3b3b3;
+	font-size: 16px;
+}
+
+.mce-container .fw-shortcode-item span.fw-ext-builder-icon.dashicons {
+	/* dashicons are smaller than font grid (it's like padding), I don't know why the font was created like that */
+	font-size: 20px;
+}
+
+.mce-container .fw-shortcode-item:hover span.fw-ext-builder-icon {
+	color: #8c8c8c;
+}
+
+.mce-container .fw-shortcode-item span.fw-ext-builder-icon.unycon {
+	font-family: 'Unycon';
+}
+
+.mce-container .fw-shortcode-item span.fw-ext-builder-icon.dashicons {
+	font-family: 'dashicons';
+}
+
+.mce-container .fw-shortcode-item span.fw-ext-builder-icon.fa {
+	font-family: 'FontAwesome';
+}
+

@@ -1,0 +1,14 @@
+/* Certificates Dark Styles */
+.certificate-item {
+  border-color: #444;
+}
+
+.certi-logo {
+  background-color: #444;
+}
+
+.certi-id,
+.certi-date {
+  color: #aaa;
+}
+/* /Certificates Dark Styles */

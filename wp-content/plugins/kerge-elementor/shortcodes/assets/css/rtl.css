@@ -1,0 +1,168 @@
+/*
+* Theme Name: BreezyCV - Resume / CV / vCard WordPress Theme
+* Author: lmpixels
+* Author URL: http://themeforest.net/user/lmpixels
+* Version: 1.0.0
+*/
+
+.block-title {
+  text-align: right;
+  padding-left: 12px;
+  padding-right: 0;
+}
+
+.block-title:after, h3.comment-reply-title:after {
+  right: -9px;
+  left: auto;
+}
+
+.home-text {
+  text-align: right;
+}
+
+.hp-dots {
+  right: -3%;
+  left: auto;
+}
+
+.direction-reverse .hp-dots {
+  left: -3%;
+}
+
+.info-block-w-icon {
+  text-align: right;
+}
+
+.info-block-w-icon .ci-icon {
+  padding-left: 25px;
+  padding-right: 0;
+}
+
+.portfolio-grid .item .name,
+.portfolio-filters {
+  text-align: right;
+}
+
+.portfolio-grid .item .category {
+  right: 15px;
+  left: auto;
+}
+
+.portfolio-grid .item i {
+  right: auto;
+  left: 15px;
+}
+
+.blog-card .category {
+  right: 12px;
+  left: auto;
+}
+
+.blog-card .post-info {
+  text-align: right;
+}
+
+.form-group:not(.form-group-checkbox) .form-control:focus ~ label, .form-group.form-group-focus:not(.form-group-checkbox) .form-control ~ label {
+  right: 0;
+  left: auto;
+}
+
+.form-group .help-block:after {
+  right: 5px;
+  left: auto;
+  border-right: 0;
+  border-left: 10px solid transparent;
+}
+
+.controls.two-columns .left-column {
+  float: right;
+  margin-left: 3%;
+  margin-right: 0;
+}
+
+.controls.two-columns .right-column {
+  float: left;
+}
+
+.contact-form {
+  text-align: right;
+}
+
+@media only screen and (max-width: 480px) {
+  .controls.two-columns .left-column {
+    margin-left: 0;
+  }
+}
+
+.timeline .left-part {
+  text-align: left;
+  padding-left: 25px;
+  padding-right: 0;
+}
+
+.timeline .right-part {
+  text-align: right;
+  padding-left: 15px;
+  padding-right: 25px;
+}
+
+.timeline .divider {
+  right: 30%;
+  left: auto;
+}
+
+.timeline .divider:before {
+  margin-right: -8px;
+  margin-left: 0;
+}
+
+.timeline .divider:after {
+  margin-right: -4px;
+  margin-left: 0;
+}
+
+.knowledges {
+  text-align: right;
+}
+
+.skills-info.skills-first-style h4 {
+  float: right;
+}
+
+.skills-first-style .skill-value {
+  float: left;
+}
+
+.certi-content {
+  text-align: right;
+}
+
+.testimonial .author-info .icon {
+  right: auto;
+  left: 0;
+}
+
+.testimonial .text,
+.testimonial .author-info {
+  text-align: right;
+}
+
+.testimonials.owl-carousel .owl-nav,
+.clients.owl-carousel .owl-nav {
+  text-align: left;
+  left: 0;
+  right: auto;
+}
+
+.testimonials.owl-carousel .owl-nav .owl-prev, .clients.owl-carousel .owl-nav .owl-prev {
+    margin-right: 0;
+    margin-left: 3px;
+}
+
+.testimonials.owl-carousel .owl-nav .owl-next:before, .clients.owl-carousel .owl-nav .owl-next:before {
+    content: "\e875";
+}
+
+.testimonials.owl-carousel .owl-nav .owl-prev:before, .clients.owl-carousel .owl-nav .owl-prev:before {
+    content: "\e876";
+}
